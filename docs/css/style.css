@@ -1,5 +1,5 @@
 body {
-background-image: url("images/positive.png");
+background-image: url("../img/positive.png");
 }
 
 h1 {
@@ -46,7 +46,7 @@ color: black;
 .bg-cover {
   width: 10000px;
   height: 300px;
-  background: url("images/row2.jpg") no-repeat center;
+  background: url("../img/row2.jpg") no-repeat center;
   background-size: cover;
   outline: 10px gold;
 }
@@ -84,7 +84,7 @@ border: 1px solid;
 .bg-cover2 {
   width: 10000px;
   height: 300px;
-  background: url("images/row3.jpg") no-repeat center;
+  background: url("../img/row3.jpg") no-repeat center;
   background-size: cover;
   outline: 10px gold;
 }
@@ -92,7 +92,7 @@ border: 1px solid;
 .bg-cover3 {
   width: 10000px;
   height: 300px;
-  background: url("images/row4.jpg") no-repeat center;
+  background: url("../img/row4.jpg") no-repeat center;
   background-size: cover;
   outline: 10px gold;
 }
@@ -100,7 +100,7 @@ border: 1px solid;
 .bg-cover4 {
   width: 10000px;
   height: 300px;
-  background: url("images/row5.jpg") no-repeat center;
+  background: url("../img/row5.jpg") no-repeat center;
   background-size: cover;
   outline: 10px gold;
 }
@@ -109,5 +109,12 @@ hr {
 border-color: silver;
 }
 
-
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
 
